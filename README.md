@@ -41,7 +41,7 @@ Fork 本仓库
 提交代码
 新建 Pull Request
 
-### 项目演示
+### 项目实例
 
 前台：
 ![前台](https://github.com/shisanxiaobai/MyLottery/blob/main/image/Snipaste_2022-11-11_21-42-11.png)
