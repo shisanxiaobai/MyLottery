@@ -8,15 +8,15 @@ init:
 
 .PHONY: api
 api:
-	protoc --openapi_out=. --proto_path=. proto/micro-user.proto
+	protoc --openapi_out=. --proto_path=. proto/.proto
 
 .PHONY: proto
 proto:
-	protoc --proto_path=. --micro_out=. --go_out=:. proto/user/user.proto
+	protoc --proto_path=. --micro_out=. --go_out=:. proto/choose.proto
 	
 .PHONY: build
 build:
-	go build -o micro-user *.go
+	go build -o  *.go
 
 .PHONY: test
 test:
@@ -24,4 +24,4 @@ test:
 
 .PHONY: docker
 docker:
-	docker build . -t micro-user:latest
+	docker build . -t :latest
