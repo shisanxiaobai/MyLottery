@@ -1,18 +1,18 @@
 server:
   httpport: :9002   
-  jwtkey: my777lottery                       #jwt token签名，自定义
+  jwtkey: my777lottery                 #jwt token签名，自定义
   salt: mylottery                      #md5加盐， 防止密码被破译，自定义
-  email: 1003152643@qq.com
-  sender: 十三小白
-  mailpassword: umsdbczidsvkbfhc        #开通IMAP后会给你一个授权码，不要暴露，要保管好
+  email: 自己的邮箱
+  sender: 发送者名称
+  mailpassword: IMAP授权码              #开通IMAP后会给你一个授权码，不要暴露，要保管好
 
 
 db:
   driver: "mysql"
   host: 127.0.0.1          
   port: 3306
-  user: root
-  password: "0818"
+  user: 数据库账号
+  password: "数据库密码"                #密码不加"" 有时候解析不出来
   dbname: mylottery
   charset: utf8mb4
 
@@ -21,6 +21,7 @@ rdb:
   driver: redis
   addr: 127.0.0.1:6379
   local: 7 
+
 
 rabbit:
   user: guest
