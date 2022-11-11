@@ -43,5 +43,5 @@ Fork 本仓库
 
 ### 项目演示
 
-[https://github.com/shisanxiaobai/MyLottery/blob/main/image/Snipaste_2022-11-11_21-42-11.png]
-[https://github.com/shisanxiaobai/MyLottery/blob/main/image/Snipaste_2022-11-11_21-42-39.png]
+![前台](https://github.com/shisanxiaobai/MyLottery/blob/main/image/Snipaste_2022-11-11_21-42-11.png)
+![后台](https://github.com/shisanxiaobai/MyLottery/blob/main/image/Snipaste_2022-11-11_21-42-39.png)
